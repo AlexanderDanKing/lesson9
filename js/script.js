@@ -94,14 +94,14 @@ window.addEventListener("DOMContentLoaded", function(){
     more.forEach(function(item) {
         item.addEventListener("click", function(){
         overlay.style.display = "block";
-        this.classList.add = "more-splash";
+        this.classList.add("more-splash");
         document.body.style.overflow = "hidden";
         
     });
 
     close.addEventListener("click", function(){
         overlay.style.display = "none";
-        item.classList.remove = "more-splash";
+        item.classList.remove("more-splash");
         document.body.style.overflow = "";
     });
     });
